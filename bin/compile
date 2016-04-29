@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# Where the magic happens
+
+# Packages required: glusterfs-common, libaio1, libibverbs1, libdevmapper-event1.02.1, libibverbs1, liblvm2app2.2, librdmacm1
+
+# Gluster Symlinks:
+
+apt-get update
+
+apt-get -y install glusterfs-client
+
+
